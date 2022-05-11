@@ -1,0 +1,5 @@
+a = list(map(int, input("Enter the array elements: ").split()))
+print("The list is: ",a)
+sorted_a = sorted(a)
+print("Max element in the list is: ", sorted_a[len(sorted_a)-1])
+print("Min element in the list is: ", sorted_a[0])
